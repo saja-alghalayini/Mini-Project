@@ -107,7 +107,7 @@ function reset()
 {
   mistakes = 0;
   guessed = [];
-  document.getElementById('hangmanPic').src = 'img gose here';
+  document.getElementById('hangmanPic').src = './Img/img1.jpg';
 
   randomWord();
   guessedWord();
