@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hangman.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Hangman Game</title>
+</head>
+
+<body>
+
+    <title>Hangman</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h1 class="text-center">Hangman</h1>
+
+            <div class="wrng-guess"> Wrong Guesses: <span id='mistakes'>0</span> / <span id='maxWrong'></span></div>
+
+            <div class="pic">
+                <img id='hangmanPic' src="img gose here" alt="">
+
+               <p> <h3> Can you guess which programming language is this? </h3> </p>
+               <p><h5> Remember, you only have 5 attempts, use them wisely.... </h5></p>
+               <p><h5>Good Luck...</h5></p>
+                
+                <p id="smthng"> The guessed word / letters </p>
+
+                <div id="keyboard"></div>
+                <button class="btn btn-info" onClick="reset()"> Reset Game </button>
+            </div>
+
+        </div>
+
+
+    </body>
+    <script src="./Hangman.js"></script>
+
+</html>
